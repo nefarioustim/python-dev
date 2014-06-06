@@ -1,6 +1,7 @@
 *.lock
 
 venv/
+projects/
 
 #--------------------
 # Puppet modules included by Puppetfile
