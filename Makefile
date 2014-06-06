@@ -5,10 +5,13 @@ export WORKON_HOME="~/python-dev/envs"
 
 .PHONY: install clean-pyc clean-virtualenv
 
-install: clean-pyc ./venv
+install: clean-pyc ./venv ./projects
 
 ./venv:
 	virtualenv venv
+
+./projects:
+	mkdir projects
 
 clean-pyc:
 	find . -name '*.pyc' -delete
