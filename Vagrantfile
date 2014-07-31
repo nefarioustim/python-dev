@@ -10,7 +10,7 @@ VAGRANTFILE_API_VERSION = "2"
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     config.vm.box = BASE_BOX
     config.vm.network :private_network, ip: IP_ADDRESS
-    config.vm.synced_folder ".", GUEST_LOCATION, :nfs => true
+    config.vm.synced_folder ".", GUEST_LOCATION
     config.ssh.forward_agent = true
 
     config.vm.provider "virtualbox" do |my_vm|
