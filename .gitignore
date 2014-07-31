@@ -12,6 +12,7 @@ puppet/modules/core-env
 puppet/modules/apt
 puppet/modules/user
 puppet/modules/libxml
+puppet/modules/mysql
 puppet/modules/redis
 puppet/modules/python
 puppet/modules/supervisorprog

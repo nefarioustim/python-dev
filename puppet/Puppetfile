@@ -16,6 +16,10 @@ mod "nefarioustim/libxml",
     :git => "git://github.com/nefarioustim/puppet-manifests.git",
     :path => "modules/libxml"
 
+mod "nefarioustim/mysql",
+    :git => "git://github.com/nefarioustim/puppet-manifests.git",
+    :path => "modules/mysql"
+
 mod "nefarioustim/redis",
     :git => "git://github.com/nefarioustim/puppet-manifests.git",
     :path => "modules/redis"

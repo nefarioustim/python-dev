@@ -15,6 +15,10 @@ class { "user":
 
 include libxml
 
+class { "mysql":
+    root_password => "pythondev"
+}
+
 include python
 include python::virtualenv
 include python::supervisor
